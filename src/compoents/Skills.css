@@ -1,0 +1,130 @@
+.skillContent {
+    display: grid;
+    padding: 50px;
+    align-content: center;
+    background-color: #200023;
+    color: rgb(237, 238, 239);
+    padding-left: 28%;
+
+}
+
+.mainskill{
+    background-color: #200023;
+    padding-bottom: 40px;
+
+}
+
+.skillbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #000000;
+    margin-left: 20%;
+    width: 60%;
+    height: auto;
+    padding: 25px;
+    border: 2px solid violet;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 0 15px 30px rgba(124, 26, 123, 0.4);
+
+    
+}
+.skill{
+    display: flex;
+    gap: 0px;
+    align-items: center;
+}
+
+.skill:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.skillbox p{
+    min-width: 150px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    
+}
+.skillbox hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 10px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgb(242, 0, 255) 0%, rgb(210, 102, 179) 68%, rgb(241, 241, 241) 100%);
+}
+.achievements{
+    background-color: #200023;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    padding-top: 80px;
+
+}
+.achieve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+
+}
+.achieve h1{
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(90deg, rgb(242, 0, 255) 0%, rgb(255, 255, 255) 68%, rgb(241, 241, 241) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.achieve p{
+    font-size: 22px;
+    font-weight: 500;
+    color:white;
+}
+
+@media(max-width:600px) {
+    .skillbox{
+        width: 70%;
+        
+        margin-left: 10%;
+    }
+    .skill{
+        flex-wrap:wrap ;
+    }
+    .skill hr{
+        margin-top: 10px;
+    }
+    .skillContent {
+        padding-left: 15%;
+    }
+   .achieve p{
+    padding-left: 45px;
+    font-size: 16px;
+
+
+   }
+ 
+}
+
+@media(max-width:768px) {
+  .achieve p{
+    padding-left: 45px;
+    font-size: 16px;
+
+
+   }
+   .skillContent {
+    padding-left: 20%;
+}
+.skillbox{
+    width: 80%;
+    
+    margin-left: 7%;
+}
+
+}
