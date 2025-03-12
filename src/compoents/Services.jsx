@@ -13,7 +13,7 @@ const Services = () => {
         },
         {
             iconName: 'FaCode',
-            role: 'Programming',
+            role: 'Designing',
             para: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo cupiditate aut velit non molestias.',
         },
         {
