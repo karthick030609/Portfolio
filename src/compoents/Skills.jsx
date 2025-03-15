@@ -32,6 +32,10 @@ const Skills = () => {
             skillName: 'UI & UX',
             skillPercentage: '40%',
         },
+        {
+            skillName: 'GitUp',
+            skillPercentage: '60%',
+        },
     ];
 
     return (
